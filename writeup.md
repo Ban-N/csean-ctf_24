@@ -77,6 +77,64 @@ The description of the challenge gave it away, the word "seek" took my mind to "
 
 FLAG:```csean-ctf{That_Was_S0_Fast}24```
 
+ 
+# Forensics
+<hr>
+
+## ids
+
+![image](https://github.com/user-attachments/assets/242dc6ea-c10c-4722-8482-84a4614bd224)
+
+I downloaded the file to my kali machine
+
+![image](https://github.com/user-attachments/assets/e3a2c80a-2c29-4171-9be4-9c0b4722bd61)
+
+Catting the file gave me some weird stuffs, but then the name of the file gave it away. It's a hexadecimal string. So I just decoded with cyberchef
+
+![image](https://github.com/user-attachments/assets/fed4f46f-5b55-4b48-9a6c-c1f2af4e255c)
+
+FLAG:```csean-ctf{y0u_got_m3}24```
+
+-----------------------
+
+## sus
+
+![image](https://github.com/user-attachments/assets/8bddde2f-ad64-4c31-b782-106f62fd4a65)
+
+I downloaded the file to my kali machine
+
+![image](https://github.com/user-attachments/assets/59d22763-abbf-4f7e-8702-8cebe78806f5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
