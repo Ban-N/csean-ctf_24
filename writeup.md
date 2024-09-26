@@ -105,10 +105,28 @@ I downloaded the file to my kali machine
 
 ![image](https://github.com/user-attachments/assets/59d22763-abbf-4f7e-8702-8cebe78806f5)
 
+I analyzed this using sublime text, and then I noticed something
 
+![image](https://github.com/user-attachments/assets/855b7843-8031-478b-a56f-0a266458ef4f)
 
+So , this is a mail between two people. Reading their conversations I saw this
 
+![image](https://github.com/user-attachments/assets/9231101f-d52c-421d-a679-3571cef680a1)
 
+There's a png file that was sent, but then it is in base64 format. So I copied the base64, saved it to my device 
+
+![image](https://github.com/user-attachments/assets/46524c62-e6ef-47f6-9452-e8508499b1ee)
+
+I then uploaded it to cyberchef so I can save the output in png format
+
+![image](https://github.com/user-attachments/assets/40755c5f-1d13-4fce-ad24-d78edd4f36a3)
+![image](https://github.com/user-attachments/assets/afd654f4-df65-4e6e-a4a7-c3f78285ac04)
+
+Checking the content of the image gave me the flag
+
+FLAG:```csean-ctf{4n4lyze_3verything_luffy}24```
+
+----------------------------------
 
 
 
