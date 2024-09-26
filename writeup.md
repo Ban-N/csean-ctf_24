@@ -23,7 +23,11 @@ After downloading, I checked the file type
 └─# file image_2.png 
 image_2.png: JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, comment: "use_what_you_have_to_get_what_you_want", baseline, precision 8, 697x733, components 3
 ```
-Checking the file type showed me that it's a jpeg file, so I just changed the extension
+Checking the file type showed me that it's a jpeg file, so I just changed the extension. Also, I found this comment ```use_what_you_have_to_get_what_you_want```, which I used as the password when I ran the steghide tool
+
+![image](https://github.com/user-attachments/assets/358f2b58-dffe-4d3d-9107-4ee20163d72e)
+
+FLAG:```csean-ctf{e45y_5teg}24```
 
 -----------------------------------
 
