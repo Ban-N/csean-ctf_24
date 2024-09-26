@@ -128,6 +128,20 @@ FLAG:```csean-ctf{4n4lyze_3verything_luffy}24```
 
 ----------------------------------
 
+## Telco- Log Identification
+
+![image](https://github.com/user-attachments/assets/83f9749a-4411-409d-ac4d-eaeadb004e0c)
+
+I downloaded those files to my machine then converted them to xml files
+
+![image](https://github.com/user-attachments/assets/2c6da451-77a7-4da3-9909-b2f31afd2bb1)
+
+The next thing I did was to analyze the xml files using sublime text.
+
+
+
+
+
 
 
 
