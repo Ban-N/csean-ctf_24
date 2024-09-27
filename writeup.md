@@ -202,6 +202,8 @@ download.png: PNG image data, 525 x 525, 8-bit/color RGBA, non-interlaced
 
 Checking the content of the image gave me the flag
 
+![image](https://github.com/user-attachments/assets/3aceeec4-2d42-4fa4-bcdb-bed375bd4b4f)
+
 FLAG:```csean-ctf{4n4lyze_3verything_luffy}24```
 
 ----------------------------------
@@ -212,8 +214,32 @@ FLAG:```csean-ctf{4n4lyze_3verything_luffy}24```
 
 I downloaded those files to my machine then converted them to xml files
 
-![image](https://github.com/user-attachments/assets/2c6da451-77a7-4da3-9909-b2f31afd2bb1)
+```
+┌──(root㉿kali)-[/home/csean_ctf/forensics/telco_log_ident]
+└─# ls -la
+total 39128
+drwxr-xr-x 3 root root     4096 Sep 26 22:46 .
+drwxr-xr-x 5 root root     4096 Sep 26 21:05 ..
+-rw-r--r-- 1 root root 21041152 Sep 26 21:05 logfile_a.evtx
+-rw-r--r-- 1 root root 10555392 Sep 26 21:05 logfile_b.evtx
+-rw-r--r-- 1 root root  8458240 Sep 26 21:05 logfile_c.evtx
+```
 
+![image](https://github.com/user-attachments/assets/3ee91650-e2c6-48cc-af69-72c553a84b87)
+
+```
+┌──(root㉿kali)-[/home/csean_ctf/forensics/telco_log_ident]
+└─# ls -la                    
+total 108592
+drwxr-xr-x 3 root root     4096 Sep 27 09:53 .
+drwxr-xr-x 5 root root     4096 Sep 26 21:05 ..
+-rw-r--r-- 1 root root 21041152 Sep 26 21:05 logfile_a.evtx
+-rw-r--r-- 1 root root 49454974 Sep 27 09:53 logfile_a.xml
+-rw-r--r-- 1 root root 10555392 Sep 26 21:05 logfile_b.evtx
+-rw-r--r-- 1 root root  3685138 Sep 27 09:53 logfile_b.xml
+-rw-r--r-- 1 root root  8458240 Sep 26 21:05 logfile_c.evtx
+-rw-r--r-- 1 root root 17986941 Sep 27 09:53 logfile_c.xml
+```
 The next thing I did was to analyze the xml files using sublime text. The task here is to investigate the name of the log files
 
 For Log A
