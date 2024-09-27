@@ -41,7 +41,7 @@ flag: `csean-ctf{8 Pillars}24`
 
 ![image](https://github.com/user-attachments/assets/9c543b4e-9422-4c3d-afb0-304a666ac57d)
 
-flag: `csean-ctf{Designation and Protection of Critical National Information Infrastructure Order 2024, 13 Critical Sectors}24`
+flag: `csean-ctf{Designation and Protection of Critical National Information Infrastructure Order 2024, 13 Critical Sectors}24`.
 
 
 > NAIS
@@ -52,10 +52,16 @@ flag: `csean-ctf{Designation and Protection of Critical National Information Inf
 
 https://ncair.nitda.gov.ng/wp-content/uploads/2024/08/National-AI-Strategy_01082024-copy.pdf
 
-flag: `csean-ctf{5, 5 years}24`
+flag: `csean-ctf{5, 5 years}24`.
 
 
+>  N Tripple C - NCCC 
 
+![image](https://github.com/user-attachments/assets/d0d3d09b-2d5c-4cce-abeb-db91450c62b7)
+
+https://www.linkedin.com/company/nigeria-computer-emergency-response-team/
+
+flag: `csean-ctf{Ahmad Sa'ad Abubakar, ONSA}24`.
 
 
 # Steganography
