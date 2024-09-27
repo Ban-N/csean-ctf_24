@@ -14,7 +14,7 @@
 total 36
 drwxr-xr-x 2 root      root       4096 Sep 26 17:56 .
 drwxr-xr-x 3 root      root       4096 Sep 26 17:49 ..
--rw-r--r-- 1 bl4ck4non bl4ck4non 24969 Sep 26 17:55 image_2.png
+-rw-r--r-- 1 root      root      24969 Sep 26 17:55 image_2.png
 ```
 After downloading, I checked the file type
 
