@@ -1,4 +1,50 @@
 # Team Name: Sate Sate Sate
+# General 
+
+> CSEAN Leadership 50pts
+
+![image](https://github.com/user-attachments/assets/725a11fc-39c5-4b85-8851-46ca33556822)
+
+![image](https://github.com/user-attachments/assets/74d5abac-efbf-4d55-b85f-4adf841e8b87)
+
+wa have `Remi Afon`
+
+![image](https://github.com/user-attachments/assets/62a5b0a1-4f62-4f48-80cf-611cde773ac7)
+
+we have `ade shoyinka`
+
+flag: `csean-ctf{Remi Afon, Ade Shoyinka}24`
+
+
+
+> CERT / CSRIT 50pts 
+
+![image](https://github.com/user-attachments/assets/7e54e814-34bb-460b-b23d-b1dbf547c78b)
+
+![image](https://github.com/user-attachments/assets/67191416-213f-4a9c-9d3b-458410654a78)
+
+flag: `csean-ctf{4}24`
+
+
+> NCPS
+
+![image](https://github.com/user-attachments/assets/60d6f07a-54ce-413d-8de2-8e00c21607e6)
+
+![image](https://github.com/user-attachments/assets/f928b909-6d88-4f46-a0da-3862007f3e6d)
+
+flag: `csean-ctf{8 Pillars}24`
+
+
+>  What do you know about CNII 
+
+![image](https://github.com/user-attachments/assets/0f4129f8-be15-47df-b7aa-377eeef51fd1)
+
+![image](https://github.com/user-attachments/assets/9c543b4e-9422-4c3d-afb0-304a666ac57d)
+
+flag: `csean-ctf{Designation and Protection of Critical National Information Infrastructure Order 2024, 13 Critical Sectors}24`
+
+
+
 
 
 # Steganography
