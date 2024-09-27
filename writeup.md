@@ -47,7 +47,20 @@ FLAG:```csean-ctf{e45y_5teg}24```
 
 I downloaded the file to my kali linux then I opened it
 
-![image](https://github.com/user-attachments/assets/ce87a9d7-879b-4e08-aa08-d6f6faeb9f8b)
+```
+┌──(root㉿kali)-[/home/csean_ctf/steg/flakes]
+└─# ls    
+super.txt
+                                                                                
+┌──(root㉿kali)-[/home/csean_ctf/steg/flakes]
+└─# cat super.txt                                         
+Something isn't just right	     	 		       	     	   
+	 	   	       	       	 	     	    		    
+Something isn't just right    			     	 
+
+Something isn't just right
+
+```
 
 The description actually gave this challenge away, the word "snow" took my mind to "stegsnow"
 
@@ -63,7 +76,15 @@ FLAG:```csean-ctf{Just_Sn0w}24```
 
 I downloaded the file to my kali linux
 
-![image](https://github.com/user-attachments/assets/5bc57c59-83d2-431c-ac1b-220ef5af1c90)
+```
+┌──(root㉿kali)-[/home/csean_ctf/steg/outguess]
+└─# ls    
+secret.jpg
+                                                                                
+┌──(root㉿kali)-[/home/csean_ctf/steg/outguess]
+└─# file secret.jpg  
+secret.jpg: JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 612x552, components 3
+```
 
 The descirpiton of this challenge also gave it away, the word "outguess" took my mind to "outguess" (tool used for steganography)
 
@@ -79,7 +100,15 @@ FLAG:```csean-ctf{You_0ut_gue55ed_we11}24```
 
 I downloaded the file to my machine
 
-![image](https://github.com/user-attachments/assets/072edcb3-ba3a-4173-b403-8d2d9a2dd2fd)
+```
+┌──(root㉿kali)-[/home/csean_ctf/steg/the_seeker]
+└─# ls 
+seeker.jpeg
+                                                                                
+┌──(root㉿kali)-[/home/csean_ctf/steg/the_seeker]
+└─# file seeker.jpeg
+seeker.jpeg: JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, comment: "N0t_This_Way_Try_Again", baseline, precision 8, 220x124, components 3
+```
 
 The description of the challenge gave it away, the word "seek" took my mind to "stegseek"
 
@@ -97,7 +126,14 @@ FLAG:```csean-ctf{That_Was_S0_Fast}24```
 
 I downloaded the file to my kali machine
 
-![image](https://github.com/user-attachments/assets/e3a2c80a-2c29-4171-9be4-9c0b4722bd61)
+```
+┌──(root㉿bl4ck4non)-[/home/csean_ctf/forensics/ids]
+└─# ls -la                
+total 52
+drwxr-xr-x 2 root      root       4096 Sep 26 20:04 .
+drwxr-xr-x 5 root      root       4096 Sep 26 21:05 ..
+-rw-r--r-- 1 root      root      41934 Sep 26 20:03 637365616e2d6374667b7930755f676f745f6d337d3234.txt
+```
 
 Catting the file gave me some weird stuffs, but then the name of the file gave it away. It's a hexadecimal string. So I just decoded with cyberchef
 
@@ -113,7 +149,14 @@ FLAG:```csean-ctf{y0u_got_m3}24```
 
 I downloaded the file to my kali machine
 
-![image](https://github.com/user-attachments/assets/59d22763-abbf-4f7e-8702-8cebe78806f5)
+```
+┌──(root㉿bl4ck4non)-[/home/csean_ctf/forensics/sus]
+└─# ls -la
+total 1388
+drwxr-xr-x 2 root      root        4096 Sep 26 20:35 .
+drwxr-xr-x 5 root      root        4096 Sep 26 21:05 ..
+-rw-r--r-- 1 root      root      544680 Sep 26 20:19 emails.log
+```
 
 I analyzed this using sublime text, and then I noticed something
 
@@ -125,7 +168,15 @@ So , this is a mail between two people. Reading their conversations I saw this
 
 There's a png file that was sent, but then it is in base64 format. So I copied the base64, saved it to my device 
 
-![image](https://github.com/user-attachments/assets/46524c62-e6ef-47f6-9452-e8508499b1ee)
+```
+┌──(root㉿bl4ck4non)-[/home/csean_ctf/forensics/sus]
+└─# ls -la
+total 1388
+drwxr-xr-x 2 root      root        4096 Sep 26 20:35 .
+drwxr-xr-x 5 root      root        4096 Sep 26 21:05 ..
+-rw-r--r-- 1 root      root      544680 Sep 26 20:19 emails.log
+-rw-r--r-- 1 root      root      497221 Sep 26 20:32 not_malicious.txt
+```
 
 I then uploaded it to cyberchef so I can save the output in png format
 
