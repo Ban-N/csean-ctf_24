@@ -35,7 +35,7 @@ drwxr-xr-x 6 root      root       4096 Sep 26 19:53 ..
 -rw-r--r-- 1 root      root 24969 Sep 26 17:55 image_2.png
 ```
 
-![image](https://github.com/user-attachments/assets/358f2b58-dffe-4d3d-9107-4ee20163d72e)
+![image](https://github.com/user-attachments/assets/283e3a46-c5b3-4732-bce9-70f26162357a)
 
 FLAG:```csean-ctf{e45y_5teg}24```
 
