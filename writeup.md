@@ -35,9 +35,9 @@ FLAG:```csean-ctf{e45y_5teg}24```
 
 ![image](https://github.com/user-attachments/assets/92f10346-0921-4147-ab42-1f794f738c08)
 
-I downloaded the file to my kali linux
+I downloaded the file to my kali linux then I opened it
 
-![image](https://github.com/user-attachments/assets/d97adf26-f3c7-4e04-bfc8-75c585d657cc)
+![image](https://github.com/user-attachments/assets/ce87a9d7-879b-4e08-aa08-d6f6faeb9f8b)
 
 The description actually gave this challenge away, the word "snow" took my mind to "stegsnow"
 
